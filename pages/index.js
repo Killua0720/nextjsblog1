@@ -15,16 +15,24 @@ export default function Home() {
         <h1></h1>
       </header>
       <main className={styles.main}>
-        <article className={styles.post}>
-          <h2>Introduce Yourself</h2>
-          <p>Jan Raymond Soriano,<br/> My Hobbies are Listening to Music and Sleeping <br/> 
-          Favourite Music Alone by Marshmello <br/> Favourite Food Tonilang Manok <br/> I took the IT course because when I got Highschool i got facisnated on Technology and 
-          That my First coding experience was HTML <br/> Probably see myself working as Game Developer, Web Developer or Web Designer but if the competition is high gonna work in Callcenter instead
-          <br/> I already know some basics of HTML and CSS but i want learn more applying Javascript on HTML. <br/> More Advanced area on CSS and Javascript application on the Website.  </p> 
-        </article>
-      </main>
+  <article className={styles.post}>
+    <h2>Introduce Yourself</h2>
+    <p>
+      Hi, I'm Jan Raymond Soriano. Here’s a bit about me:
+    </p>
+    <ul>
+      <li><strong>Hobbies:</strong> Listening to music and sleeping</li>
+      <li><strong>Favourite Music:</strong> "Alone" by Marshmello</li>
+      <li><strong>Favourite Food:</strong> Tonilang Manok</li>
+      <li><strong>Reason for Choosing IT:</strong> I became fascinated with technology in high school, and my first coding experience was with HTML.</li>
+      <li><strong>Career Aspirations:</strong> I see myself working as a game developer, web developer, or web designer. However, if the competition is high, I might work in a call center instead.</li>
+      <li><strong>Current Skills and Goals:</strong> I know some basics of HTML and CSS but want to learn more, particularly applying JavaScript to HTML and exploring advanced areas of CSS and JavaScript.</li>
+    </ul>
+  </article>
+</main>
+
       <footer className={styles.footer}>
-        <p>Love Pampanga!</p>
+        <p>(This is a sample website - you'll be building a site like this on <a href='https://github.com/Killua0720/nextjsblog1.git'>our Next.js tutorial.)</a></p>
       </footer>
     </div>
   )
