@@ -16,17 +16,21 @@ export default function Home() {
       </header>
       <main className={styles.main}>
   <article className={styles.post}>
-    <h2>Introduce Yourself</h2>
+    <h2>Jan Raymond Soriano</h2>
     <p>
-      Hi, I'm Jan Raymond Soriano. Here’s a bit about me:
+      10 Things That Require Zero Talent
     </p>
     <ul>
-      <li><strong>Hobbies:</strong> Listening to music and sleeping</li>
-      <li><strong>Favourite Music:</strong> "Alone" by Marshmello</li>
-      <li><strong>Favourite Food:</strong> Tonilang Manok</li>
-      <li><strong>Reason for Choosing IT:</strong> I became fascinated with technology in high school, and my first coding experience was with HTML.</li>
-      <li><strong>Career Aspirations:</strong> I see myself working as a game developer, web developer, or web designer. However, if the competition is high, I might work in a call center instead.</li>
-      <li><strong>Current Skills and Goals:</strong> I know some basics of HTML and CSS but want to learn more, particularly applying JavaScript to HTML and exploring advanced areas of CSS and JavaScript.</li>
+      <li><strong>Being On Time</strong></li>
+      <li><strong>Making An Effort</strong></li>
+      <li><strong>Being High Energy</strong></li>
+      <li><strong>Having A Positive Attitude</strong></li>
+      <li><strong>Being Passionate</strong></li>
+      <li><strong>Using Good Body Language</strong></li>
+      <li><strong>Being Coachable</strong></li>
+      <li><strong>Doing A Little Extra</strong></li>
+      <li><strong>Being Prepared</strong></li>
+      <li><strong>Having A Strong Work Ethic</strong></li>
     </ul>
   </article>
 </main>
